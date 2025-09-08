@@ -1,0 +1,213 @@
+
+.about-us-img {
+  background-image: linear-gradient(rgba(20, 33, 43, .25)), url('https://election-react.wpolive.com/static/media/about-s2.650a410339a3a2239280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.about-right {
+  color: red;
+  font-weight: 500;
+  padding-top: 10px !important;
+}
+
+.about-right-head {
+  font-size: 45px;
+  font-weight: 600;
+  color: #091854;
+}
+
+.about-right-para {
+  font-size: 19px;
+  font-weight: 400;
+  color: #777;
+  line-height: 1.8;
+}
+
+
+.about-right-img1 {
+  border: 1px dashed gray;
+  padding: 30px;
+}
+
+.about-right-img2 {
+  border: 1px dashed gray;
+  padding: 25px;
+}
+
+.about-right-spanimg {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6d6d6d;
+}
+
+.about-right-paraimg {
+  font-size: 15px;
+  letter-spacing: .5px;
+  font-weight: 500;
+  color: #777;
+}
+
+
+ 
+.about-donate-main-div {
+  background-image: linear-gradient(rgba(4, 4, 75, 0.884)), url('https://election-react.wpolive.com/static/media/donate-bg.79894edf2380df680f66.jpg');
+  background-repeat: no-repeat;
+} 
+
+.about-sonate-span {
+  color: rgb(199, 2, 2);
+  letter-spacing: 3px;
+}
+
+.about-sonate-head {
+  color: #091854;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.gradient-progress .progress-bar {
+  background-image: linear-gradient(90deg, #2d49bd, #de2045);
+  border-radius: 20px;
+  /* optional */
+  overflow: hidden;
+}
+
+.about-donate-para {
+  font-size: 17 clpx;
+  color: rgb(0, 0, 0);
+}
+
+.about-donate-para-span {
+  color: #555555;
+}
+
+.donate-btn {
+  color: black;
+  display: inline-block;
+  padding: 18px 35px;
+  text-transform: capitalize;
+  z-index: 1;
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid skyblue;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #de2045;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+  }
+
+  &:hover {
+    color: white;
+    border: 1px solid red;
+
+    &::before {
+      left: 0;
+    }
+  }
+
+  @media (max-width: 991px) {
+    font-size: 0.875rem;
+  }
+
+  @media (max-width: 767px) {
+    padding: 12px 18px;
+    font-size: 13px;
+  }
+}
+
+
+
+.about-mid-main-img {
+  background-image: url('https://election-react.wpolive.com/static/media/cta-bg.c8c64d3b412e897e921c.jpg');
+}
+
+.about-mid-col-color {
+  background-image: linear-gradient(to right, #de2045 15%, #021335d0 85%);
+
+}
+
+.about-mid-span {
+  color: #00c99f;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.about-mid-para {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.about-mid-btn {
+  background-color: #de2045;
+  border-radius: 6px;
+  color: #fff;
+  border: 1px solid #de2045;
+  font-size: 20px;
+  transition: .5s;
+  margin-top: 35px;
+
+  &:hover {
+    background-color: #b81535;
+  }
+}
+
+.about-team-head {
+  /* background-image: linear-gradient(to right, white, #0213353a, #b8153644, white); */
+    padding: 100px 20px;
+  text-align: center;
+  background: radial-gradient(circle at center, #e0d4f7, #fce1eb, #ffffff);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-team-sapn {
+  color: #b81535;
+  font-weight: 500;
+}
+
+.about-team-h2 {
+  color: #091854;
+  font-size: 38px;
+  font-weight: 600;
+}
+.about-team-div {
+  border: 25px solid whitesmoke;
+  border-radius: 100%;
+  background-color: transparent;
+  z-index: 9999;
+  
+  position: relative;
+  transition: 1s;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+
+  &:hover {
+    border: 25px solid #ff003375;
+  }
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  /* height: 400px; or set height as needed */
+  overflow: hidden;
+  border-radius: 100%;
+  /* margin:10px; */
+}

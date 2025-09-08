@@ -1,0 +1,135 @@
+
+.contact-container{
+     max-width: 1000px !important;
+  margin: 55px auto !important;
+  padding: 30px;
+}
+.contact-card {
+  background: #fff;
+  padding: 40px 25px;
+  border-radius: 12px;
+  box-shadow: 8px 8px   rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+  min-width: 200px; 
+  margin-right: 20px;
+}
+
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  background-color: #f1f3f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.contact-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #091854;
+  margin-bottom: 10px;
+}
+
+.contact-text {
+  font-size: 14px;
+  color: #6a6e83;
+  line-height: 1.6;
+}
+.contact-Question{
+    align-content: center;
+}
+.question-heading{
+    text-align: center;
+    color: #091854;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.question-paragraph{
+    text-align: center;
+    color: #687693;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.form-action{
+  align-content: center !important;
+
+}
+.contact-form {
+  width: 100%;
+  max-width: 950px;
+  background-color: white;
+  margin-bottom: -100px !important;
+  z-index:1;
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border 0.3s, box-shadow 0.3s;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #050506;
+  box-shadow: 0 0 6px rgba(12, 12, 12, 0.1);
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+.form-select{
+  height: 45px !important;
+  color: rgb(98, 92, 92);
+ &:focus{
+  box-shadow: 0 0 6px rgba(12, 12, 12, 0.1);
+  border-color: black;
+ }
+
+}
+
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+  display: block;
+}
+
+.submit-btn {
+  background: linear-gradient(to right, #4a00e0, #e60073);
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  height: 50px;
+  margin-top: 20px;
+  background-size: 200% 100%;
+  background-position: left center;
+  transition: background-position 0.4s ease;
+}
+
+.submit-btn:hover {
+  background-position: right center;
+}
+
+
+.a{
+  margin-top: 13px !important;
+}

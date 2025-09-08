@@ -1,0 +1,120 @@
+
+
+.footer {
+  /* background-color: rgb(7, 28, 77,0.1); */
+  color: white;
+  font-family: sans-serif;
+  padding-top: 40px;
+  background-image: linear-gradient(rgba(7, 28, 77, 0.9), rgba(7, 28, 77, 0.9)),
+    url('https://election-react.wpolive.com/static/media/footer-bg.14a46b3528df363eedf5.jpg');
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 50px;
+  gap: 30px;
+  background-color: rgb(7, 28, 77, 0.1);
+  color: white;
+  font-family: sans-serif;
+  padding-top: 40px;
+}
+@media (max-width:420px) {
+  .footer-container{
+      padding:10px;
+
+  }
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  max-width: 300px;
+}
+
+.footer-column h2,
+.footer-column h3 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer-column p,
+.footer-column li {
+  margin-bottom: 10px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  /* font-size: 30px; */
+}
+
+.social-icons svg {
+  font-size: 20px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.social-icons svg:hover {
+  background-color: #ff2d55;
+}
+
+.newsletter-box {
+  display: flex;
+  margin-top: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.newsletter-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.newsletter-box button {
+  background: #ff2d55;
+  border: none;
+  padding: 0 20px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ffffff1a;
+  margin-top: 30px;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #aaa;
+}
+.color{
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #fdf7f6, #e5e2eb, #b1b8e6, #de2045);
+}
+
+/* Footer end */
