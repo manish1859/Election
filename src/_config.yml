@@ -1,8 +1,0 @@
-title: My Site
-description: A simple Jekyll site
-baseurl: ""
-url: "https://manish1859.github.io/Election/"
-theme: minima
-
-with:
-  jekyll_src: docs 
