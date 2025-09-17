@@ -7,6 +7,6 @@ import react from '@vitejs/plugin-react'
 //   base: '/Election/',
 // })
 export default defineConfig({
-  plugins: [React()],
+  plugins: [react()],
   base: "/Election/", // 👈 yaha apna repo ka naam likho
 });
